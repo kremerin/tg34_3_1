@@ -1,0 +1,82 @@
+/* bodoni-moda-regular - latin */
+@font-face {
+    font-family: 'Bodoni Moda';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/bodoni-moda-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/bodoni-moda-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* yusei-magic-regular - latin */
+@font-face {
+    font-family: 'Yusei Magic';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/yusei-magic-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/yusei-magic-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    margin: 0 1rem;
+}
+
+.bodoni {
+    font-family: 'Bodoni Moda';
+}
+
+.openSans {
+    font-family: 'Open Sans';
+}
+
+.yusei {
+    font-family: 'Yusei Magic';
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.small {
+    font-size: 16px;
+}
+
+.middle {
+    font-size: 2rem;
+}
+
+.big {
+    font-size: 4rem;
+}
+
+#anzeige {
+    text-align: center;
+    margin: 2rem 0;
+}

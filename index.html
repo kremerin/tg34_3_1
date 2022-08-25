@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Aufgabe 3_1</title>
+</head>
+<body>
+    <form action="" onsubmit="return false" >
+        <label for="fontsize">Schriftgröße: </label>
+        <input type="range" min="0" max="100" id="font_size" onChange="changeFontsSize()">
+        <label for="font">Schriftart: </label>
+        <select name="font" id="font" onChange="changeFontsSize()">
+            <option value="bodoni">'Bodoni Moda', serif </option>
+            <option value="openSans">'Open Sans', sans-serif</option>
+            <option value="yusei">'Yusei Magic', sans-serif</option>
+            <option value="roboto">'Roboto', sans-serif</option>
+        </select>
+        <label for="text">Vorschautext</label>
+        <input type="text" name="vorschautext" id="vorschautext" onChange="changeFontsSize()">
+    </form>
+    <div><h1 id="anzeige"></h1></div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
